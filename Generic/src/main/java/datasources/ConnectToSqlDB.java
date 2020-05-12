@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+/**
+ * Created by mrahman on 04/02/18.
+ */
 
 public class ConnectToSqlDB {
 
@@ -18,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("C:\\Users\\hasan\\Desktop\\Automation2020\\generic\\secret.properties");
+        InputStream ism = new FileInputStream("../Generic/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -225,10 +228,10 @@ public class ConnectToSqlDB {
         return list;
     }
 
-   /* public static void main(String[] args)throws IOException, SQLException, ClassNotFoundException {
+    public static void main(String[] args)throws IOException, SQLException, ClassNotFoundException {
         List<User> list = readUserProfileFromSqlTable();
         for(User user:list){
             System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
-        }*/
+        }
     }
-
+}
