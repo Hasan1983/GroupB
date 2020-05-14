@@ -1,5 +1,6 @@
-package java;
+package Search;
 
+import Pages.AmazonHomePage;
 import amazonhome.AmazonHomePage;
 import amazonhome.TestData;
 import org.openqa.selenium.By;

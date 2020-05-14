@@ -1,5 +1,6 @@
-package java;
+package Search;
 
+import Pages.AmazonHomePage;
 import amazonhome.AmazonHomePage;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

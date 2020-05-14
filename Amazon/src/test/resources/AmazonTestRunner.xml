@@ -8,8 +8,8 @@
         <classes>
 
             <!--<class name="TestAmazonTitle" />-->
-            <class name="java.TestSearch" />
-
+            <class name="Search.TestSearch" />
+            <class name="Search.TestAmazonTitle" />
         </classes>
 
     </test>
